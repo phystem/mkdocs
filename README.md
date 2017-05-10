@@ -18,4 +18,4 @@ https://github.com/phystem/mkdocs/tree/gh-pages)
 
 You can see the site on
 
-[phystem.github.io/mkdocs](phystem.github.io/mkdocs)
+[phystem.github.io/mkdocs](https://phystem.github.io/mkdocs)
