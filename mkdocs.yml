@@ -1,0 +1,12 @@
+site_name: 'Phystem'
+site_description: 'Documentation for Phystem Test'
+site_author: 'Phystem Team'
+site_url: 'https://phystem.github.io/mkdocs'
+repo_url: https://github.com/phystem/mkdocs
+
+pages:
+- Home: index.md
+- Projects:
+    - ShipWreck: projects/shipwreck.md
+
+theme: 'material'
