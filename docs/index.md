@@ -2,7 +2,7 @@
 
 This is a sample documentation site created using [mkdocs.org](http://mkdocs.org).
 
-And Using Travis it is automated
+And using Travis CI it is automated
 
 ## Commands
 
