@@ -2,6 +2,8 @@
 
 This is a sample documentation site created using [mkdocs.org](http://mkdocs.org).
 
+And Using Travis it is automated
+
 ## Commands
 
 * `mkdocs new [dir-name]` - Create a new project.
