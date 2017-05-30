@@ -1,4 +1,4 @@
-# mkdocs
+# mkdocs ![Gitter](https://badges.gitter.im/Join Chat.svg)
 Testing MkDocs Github Deploy
 
 This is a sample documentation site created using [mkdocs.org](http://mkdocs.org).
