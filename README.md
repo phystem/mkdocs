@@ -7,7 +7,7 @@ This is a sample documentation site created using [mkdocs.org](http://mkdocs.org
 
 The code is deployed by following
 
-[Deploying your docs](http://www.mkdocs.org/user-guide/deploying-your-docs/)
+[Deploying your docs](http://www.mkdocs.org/user-guide/deploying-your-docs/#github-pages)
 
 Checkout the branch and then
 
