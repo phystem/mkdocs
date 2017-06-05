@@ -9,4 +9,9 @@ pages:
 - Projects:
     - ShipWreck: projects/shipwreck.md
 
+# Google Analytics
+google_analytics:
+  - 'UA-100425773-1'
+  - 'auto'
+
 theme: 'material'
