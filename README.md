@@ -16,6 +16,6 @@ Checkout the branch and then
 It will generate site and publish to [gh-pages](
 https://github.com/phystem/mkdocs/tree/gh-pages)
 
-You can see the site on
+You can see the site on the following
 
 [phystem.github.io/mkdocs](https://phystem.github.io/mkdocs)
