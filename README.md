@@ -1,4 +1,4 @@
-# mkdocs [![Travis](https://api.travis-ci.org/phystem/mkdocs.svg?branch=master)]()   [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](http://mkdocs.org)
+# mkdocs [![Travis](https://api.travis-ci.org/phystem/mkdocs.svg?branch=master)](https://travis-ci.org/phystem/mkdocs)
 Testing MkDocs Github Deploy
 
 This is a sample documentation site created using [mkdocs.org](http://mkdocs.org).
