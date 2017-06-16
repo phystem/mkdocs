@@ -1,0 +1,84 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Welcome to Phystem Docs\n\n\nThis is a sample documentation site created using \nmkdocs.org\n.\n\n\nAnd using Travis CI it is automated\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#welcome-to-phystem-docs", 
+            "text": "This is a sample documentation site created using  mkdocs.org .  And using Travis CI it is automated", 
+            "title": "Welcome to Phystem Docs"
+        }, 
+        {
+            "location": "/#commands", 
+            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.", 
+            "title": "Commands"
+        }, 
+        {
+            "location": "/#project-layout", 
+            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "title": "Project layout"
+        }, 
+        {
+            "location": "/projects/shipwreck/", 
+            "text": "Youtube Videos\n\n\nI have created a tutorial and posted a video on youtube.Access it from\n\n\nAws Tutorials\n\n\n\n\nWar File BuildName\n\n\ntarget/shipwreck-app-1.0-SNAPSHOT.war\n\n\n\n\nConfigure Ec2 Jenkins Ubuntu\n\n\nTo Install Java\n\n\nsudo apt-get update\n\nsudo apt-get install openjdk-8-jdk\n\n\n\n\nTo Install Jenkins\n\n\nInstall Jenkins on Ubuntu\n\n\nwget -q -O - https://pkg.jenkins.io/debian/jenkins-ci.org.key | sudo apt-key add -\n\nsudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ \n /etc/apt/sources.list.d/jenkins.list'\n\nsudo apt-get update\n\nsudo apt-get install jenkins\n\n\n\n\nTo start Jenkins\n\n\nsudo service jenkins start\n\n\n\n\nInstall Maven,CodePipeline plugin\n\n\n\n\nConfigure Maven \n\n\nConfigure Java\n\n\n\n\nsudo update-alternatives --config javac\n\n/usr/lib/jvm/java-8-openjdk-amd64\n\n\n\n\nTo Install Sonar\n\n\nDownload Sonar\n\n\nAdd the following entry in your /etc/apt/sources.list :\n\n\ndeb http://downloads.sourceforge.net/project/sonar-pkg/deb binary/\n\nUpdate your local package index and install Sonar:\n\nsudo apt-get update\n\nsudo apt-get install sonar\n\n\n\n\nTo configure Mysql for Sonar\n\n\nInstall Sonar on Ubuntu\n\n\nsudo apt-get install mysql-server\n\nmysql -u root -p\n\nCREATE DATABASE sonar CHARACTER SET utf8 COLLATE utf8_general_ci;\n\nCREATE USER 'sonar' IDENTIFIED BY 'sonar';\n\nGRANT ALL ON sonar.* TO 'sonar'@'%' IDENTIFIED BY 'sonar';\n\nGRANT ALL ON sonar.* TO 'sonar'@'localhost' IDENTIFIED BY 'sonar';\n\nFLUSH PRIVILEGES;\n\n\n\n\nOpen \n /opt/sonar/conf/sonar.properties \n\n\nsonar.jdbc.username=sonar\n\nsonar.jdbc.password=sonar\n\nsonar.jdbc.url=jdbc:mysql://localhost:3306/sonar?useUnicode=true\ncharacterEncoding=utf8\nrewriteBatchedStatements=true\nuseConfigs=maxPerformance\n\n\n\n\nTo start sonar\n\n\nsudo /etc/init.d/sonar start\n\n\n\n\nHow to Deploy SpringBoot on EBS\n\n\nDeploy Springboot Application on AWS using Elastic BeanStalk", 
+            "title": "ShipWreck"
+        }, 
+        {
+            "location": "/projects/shipwreck/#youtube-videos", 
+            "text": "I have created a tutorial and posted a video on youtube.Access it from  Aws Tutorials", 
+            "title": "Youtube Videos"
+        }, 
+        {
+            "location": "/projects/shipwreck/#war-file-buildname", 
+            "text": "target/shipwreck-app-1.0-SNAPSHOT.war", 
+            "title": "War File BuildName"
+        }, 
+        {
+            "location": "/projects/shipwreck/#configure-ec2-jenkins-ubuntu", 
+            "text": "", 
+            "title": "Configure Ec2 Jenkins Ubuntu"
+        }, 
+        {
+            "location": "/projects/shipwreck/#to-install-java", 
+            "text": "sudo apt-get update\n\nsudo apt-get install openjdk-8-jdk", 
+            "title": "To Install Java"
+        }, 
+        {
+            "location": "/projects/shipwreck/#to-install-jenkins", 
+            "text": "Install Jenkins on Ubuntu  wget -q -O - https://pkg.jenkins.io/debian/jenkins-ci.org.key | sudo apt-key add -\n\nsudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/   /etc/apt/sources.list.d/jenkins.list'\n\nsudo apt-get update\n\nsudo apt-get install jenkins", 
+            "title": "To Install Jenkins"
+        }, 
+        {
+            "location": "/projects/shipwreck/#to-start-jenkins", 
+            "text": "sudo service jenkins start", 
+            "title": "To start Jenkins"
+        }, 
+        {
+            "location": "/projects/shipwreck/#install-mavencodepipeline-plugin", 
+            "text": "Configure Maven   Configure Java   sudo update-alternatives --config javac\n\n/usr/lib/jvm/java-8-openjdk-amd64", 
+            "title": "Install Maven,CodePipeline plugin"
+        }, 
+        {
+            "location": "/projects/shipwreck/#to-install-sonar", 
+            "text": "Download Sonar  Add the following entry in your /etc/apt/sources.list :  deb http://downloads.sourceforge.net/project/sonar-pkg/deb binary/\n\nUpdate your local package index and install Sonar:\n\nsudo apt-get update\n\nsudo apt-get install sonar", 
+            "title": "To Install Sonar"
+        }, 
+        {
+            "location": "/projects/shipwreck/#to-configure-mysql-for-sonar", 
+            "text": "Install Sonar on Ubuntu  sudo apt-get install mysql-server\n\nmysql -u root -p\n\nCREATE DATABASE sonar CHARACTER SET utf8 COLLATE utf8_general_ci;\n\nCREATE USER 'sonar' IDENTIFIED BY 'sonar';\n\nGRANT ALL ON sonar.* TO 'sonar'@'%' IDENTIFIED BY 'sonar';\n\nGRANT ALL ON sonar.* TO 'sonar'@'localhost' IDENTIFIED BY 'sonar';\n\nFLUSH PRIVILEGES;  Open   /opt/sonar/conf/sonar.properties   sonar.jdbc.username=sonar\n\nsonar.jdbc.password=sonar\n\nsonar.jdbc.url=jdbc:mysql://localhost:3306/sonar?useUnicode=true characterEncoding=utf8 rewriteBatchedStatements=true useConfigs=maxPerformance", 
+            "title": "To configure Mysql for Sonar"
+        }, 
+        {
+            "location": "/projects/shipwreck/#to-start-sonar", 
+            "text": "sudo /etc/init.d/sonar start", 
+            "title": "To start sonar"
+        }, 
+        {
+            "location": "/projects/shipwreck/#how-to-deploy-springboot-on-ebs", 
+            "text": "Deploy Springboot Application on AWS using Elastic BeanStalk", 
+            "title": "How to Deploy SpringBoot on EBS"
+        }
+    ]
+}
